@@ -1,0 +1,84 @@
+body {
+  width: 350px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1372e3;
+  color: white;
+}
+
+.todo-items,
+.todo-items li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.todo-items li {
+  padding: 10px;
+  padding-left: 20px;
+  border-bottom: 2px solid grey;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 10px;
+  background-color:  #050663;
+  display: flex;
+  justify-content: space-between;
+}
+/* .todo-items li:hover {
+  background: #050663;
+} */
+.todo-items li.done .item {
+  text-decoration: line-through;
+}
+.todo-items div span {
+  margin: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.item {
+  max-width: 200px;
+}
+
+.create-todo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #EF6B24;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  float: right;
+  margin: 30px 10px 20px 0px;
+  outline: none;
+}
+.new-item {
+  display: none;
+  margin: 10px auto;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+.new-item button {
+  width: 80px;
+  height: 32px;
+  border-radius: 20px;
+  border: none;
+  background-color: #EF6B24;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+#date{
+  font-size: small;
+  float: right;
+  margin: 10px 10px 0px 0px;
+}
+
